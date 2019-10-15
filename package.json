@@ -1,0 +1,29 @@
+{
+  "name": "meetupbot",
+  "version": "1.0.0",
+  "description": "A bot for querying the meetup API about upcoming events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlexeiBlue/meetupbot.git"
+  },
+  "keywords": [
+    "slackbot",
+    "meetup"
+  ],
+  "author": "Alexei Blue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexeiBlue/meetup-slackbot/issues"
+  },
+  "homepage": "https://github.com/AlexeiBlue/meetup-slackbot#readme",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "request": "^2.88.0",
+    "slackbots": "^1.2.0",
+    "striptags": "^3.1.1"
+  }
+}
